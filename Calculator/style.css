@@ -1,0 +1,77 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    border: 1px solid rgb(63, 125, 184);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h4 {
+    position: absolute;
+    top: -70px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 40px; 
+    color: white; 
+    background-color: rgb(99, 189, 231); 
+    padding: 10px; 
+    border-radius: 10px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); 
+}
+
+.container input{
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(63, 125, 184);
+    border: none;
+    outline: none;
+    background-color: rgb(245, 245, 245);
+    border-radius: 10px;
+}
+
+#btn {
+    background-color: rgb(99, 189, 231);
+    width: 30%;
+    height: 55px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+#btn:hover{
+    background-color: rgb(19, 37, 145);
+}
+
+.answer-box{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 20px;
+    width: 30%;
+    margin: 0 auto;
+    background-color: rgb(211, 216, 224);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.answer-box p {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(63, 125, 184);
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+}
